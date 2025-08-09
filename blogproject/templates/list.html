@@ -1,0 +1,10 @@
+<!-- templetes/list.html -->
+
+{% for item in object_list %}
+<ul>
+    <li>{{ item.title }}</li>
+    <li>{{ item.content }}</li>
+    <li>{{ item.postdate }}</li>
+    <li>{{ item.category }}</li>
+</ul>
+{% endfor %}
